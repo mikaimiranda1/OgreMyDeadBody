@@ -2,6 +2,33 @@
 
 A first-person 3D action/puzzle game made in Unity. You wake up in an ogre's cave and work your way out to escape.
 
+## Project Setup
+- **Unity version:** 6.5 (6000.5.9f1). Everyone must use this exact version.
+- **Render pipeline:** URP. Only use assets that support URP.
+- **Packages:** ProBuilder, AI Navigation
+- **Team workflow guide:** [link to the workflow doc]
+
+### Folder Structure
+```
+Assets/
+├── _Project/
+│   ├── Player/      (Araav)
+│   ├── Level/       (Keo)
+│   ├── Enemies/     (Mikai)
+│   ├── UI/          (Chris)
+│   ├── Audio/       (Chris)
+│   └── Scenes/
+│       └── Dev/     (personal test scenes, one per person)
+└── ThirdParty/      (Asset Store packs)
+```
+
+### Git Rules
+- Work on your own branch (`yourname/feature`). Never push straight to `main`.
+- Merge through pull requests. Someone else tests before merging.
+- Only edit your own folder and your own scenes. Keo owns the real level scenes.
+- Close Unity before pulling or switching branches.
+- Always commit `.meta` files.
+
 ## Group Members / Roles
 - **Araav Patel** – Player & Combat
   - First-person player controls (player movement, camera movement)
@@ -41,7 +68,8 @@ A first-person 3D action/puzzle game made in Unity. You wake up in an ogre's cav
 - 'Space': Jump
 - 'Left Click': Sword attack
 - 'Right Click': Turns flashlight on/off
-- 'E': Interact (pick up items rotate puzzle pieces light the coal)
+- 'E': Interact (pick up items, rotate puzzle pieces, light the coal)
+- 'Esc': Pause menu
 - Checkpoint: Respawn at the start of the current room
 - Gates: Open when a room's objective is completed
 
@@ -114,10 +142,19 @@ A first-person 3D action/puzzle game made in Unity. You wake up in an ogre's cav
 - Escaping the cave (win sound)
 - Game over (death sound)
 
-## Unity Asset Store
-- **Sounds:**
+## Assets Used
+List every pack or file you import here, with where it came from, so we can credit it.
+
 - **Environment:**
-- **Assets:** 
+- **Characters & Animations:** Mixamo
+- **Items:**
+- **Sounds:**
 
 ## Current Progress
-- 
+**Midpoint checkup goal (Tue Nov 24):** Level 1 playable
+
+- [x] Repo and Unity project set up (packages, tags/layers, folder structure)
+- [ ] Level 1 cave blockout and lighting (Keo)
+- [ ] Player movement, sword, flashlight (Araav)
+- [ ] Mob AI: patrol, chase, attack, death (Mikai)
+- [ ] HUD, main menu, GameManager opens gate (Chris)

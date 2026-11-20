@@ -3,7 +3,7 @@
 A first-person 3D action/puzzle game made in Unity. You wake up in an ogre's cave and work your way out to escape.
 
 ## Group Members / Roles
-- **Mikai Miranda** – Player & Combat
+- **Araav Patel** – Player & Combat
   - First-person player controls (player movement, camera movement)
   - Sword combat (swinging, hit detection, damage) and sword upgrade
   - Player health and equipment (rusty sword, flashlight, torch)
@@ -13,7 +13,7 @@ A first-person 3D action/puzzle game made in Unity. You wake up in an ogre's cav
   - Lighting: bioluminescent algae, flashlight/torch tuning, the lighting effect when the boss arena catches fire
   - Environment art: rocks, carcasses, gates, props
   - Scripted level events (flashlight dies, gates open, exit opens)
-- **Aarav Patel** – Enemies & Boss
+- **Mikai Miranda** – Enemies & Boss
   - Basic mob AI (patrol, chase, attack) using Unity NavMesh
   - Ogre/cyclops boss AI: punch attacks, leg weak point, kneeling state, eye weak point
   - Camera shake when the ogre moves and attacks
